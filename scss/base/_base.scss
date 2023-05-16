@@ -1,2 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;700&family=Playfair+Display:wght@700&family=Poppins:wght@600&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap');
 
- @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;700&family=Playfair+Display:wght@700&family=Poppins:wght@600&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap');
+// font-family: 'Playfair Display', serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Roboto', sans-serif;
+ 
+body {
+  font-family: $font-main;
+  background-color: $dark;
+  color: $white;
+  font-size: 16px;
+}
+
+a{
+  color: $white;
+  transition: color 0.2s ease-in;
+
+  &:hover{
+    color: $accent;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 15px;
+
+  // background-color: cadetblue;
+
+  &--sm {
+   max-width: 840px;
+  }
+}
+
+.text-right{
+  text-align: right;
+}
+
+.visually-hidden{
+  height: 1px;
+  overflow: hidden;
+  width: 1px;
+
+  position: absolute;
+
+  clip: rect(1px 1px 1px 1px) ;
+  clip: rect(1px, 1px, 1px, 1px) ;
+  clip-path: inset(50%);
+}
+
+.none {
+  display: none !important;
+}
+
+.title-2 {
+  font-size: 36px;
+  font-family:$font-accent;
+  color: $accent;
+  font-weight: 700;
+}

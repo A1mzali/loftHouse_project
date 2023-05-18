@@ -2,11 +2,13 @@
 @import './base/reset';
 @import './base/vars';
 @import './base/base';
+@import './base/mixins';
 
 // BLOCK
 
 @import'./block/header';
 @import'./block/nav';
+@import'./block/nav_icon';
 @import'./block/info';
 @import'./block/benefits';
 @import'./block/appartments';
